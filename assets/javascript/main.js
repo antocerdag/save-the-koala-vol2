@@ -1,0 +1,1 @@
+$('#seemore').tooltip('show')
