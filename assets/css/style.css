@@ -110,6 +110,7 @@ army green: 41521F;
     color: white;
     font-weight: bolder;
     margin-top: 10px;
+    margin-bottom: 60px;
 }
 
 .third-image-section{
@@ -118,6 +119,12 @@ army green: 41521F;
 
 .third-image-section img{
 	border:11px solid #F5FFE2;
+}
+
+.well{
+	background-color: #41521F;
+    border: none;
+    margin-top: -60px;
 }
 
 /*FOURTH-SECTION*/

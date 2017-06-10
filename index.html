@@ -209,7 +209,7 @@
 								<p class="grey-text"><b>1</b> visits per month</p>
 								<hr>
 								<p class="grey-text"><b>Public</b>API access </p>
-								<button type="button" class="btn btn-verde btn-lg boton-seccion-seis">DONATE</button>
+								<a href="#ventana2" data-toggle="modal" class="btn btn-read btn-lg">Donate</a>
 							</div>
 							<div class="col-lg-4 col-md-4 col-xs-12 text-center">
 								<h4 class="text-uppercase">Groups</h4>
@@ -221,7 +221,7 @@
 								<p class="grey-text"><b>2</b> visits per month</p>
 								<hr>
 								<p class="grey-text"><b>Public</b>API access </p>
-								<button type="button" class="btn btn-verde btn-lg boton-seccion-seis" id="myModal"  data-toggle="modal" data-target="#myModal">DONATE</button>
+								<a href="#ventana2" data-toggle="modal" class="btn btn-read btn-lg">Donate</a>
 							</div>
 							<div class="col-lg-4 col-md-4 col-xs-12 text-center">
 								<h4 class="text-uppercase">Companies</h4>
@@ -233,12 +233,32 @@
 								<p class="grey-text"><b>3</b> visits per month</p>
 								<hr>
 								<p class="grey-text"><b>Public</b>API access </p>
-								<button type="button" class="btn btn-verde btn-lg boton-seccion-seis">DONATE</button>
+								<a href="#seccion" class="btn btn-read btn-lg" data-toggle="collapse">Donate</a>
+								<div class="collapse" id="seccion">
+									<br>
+									<div class="well">
+										<p>Por el momento no podemos realizar su solicitud.</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="modal fade" id="ventana2">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title">Tu donación se ha realizado con éxito</h3>
+						</div>
+							<!-- CONTENIDO DE LA VENTANA -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</section>
 		<footer>
 			<div class="container">
